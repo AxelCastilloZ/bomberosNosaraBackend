@@ -1,0 +1,6 @@
+@BomberosNosaraBackend_HostAddress = http://localhost:5192
+
+GET {{BomberosNosaraBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

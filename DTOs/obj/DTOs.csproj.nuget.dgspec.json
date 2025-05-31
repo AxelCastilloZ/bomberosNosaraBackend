@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\DTOs\\DTOs.csproj": {}
+    "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\DTOs\\DTOs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\DTOs\\DTOs.csproj": {
+    "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\DTOs\\DTOs.csproj",
+        "projectUniqueName": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\DTOs\\DTOs.csproj",
         "projectName": "DTOs",
-        "projectPath": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\DTOs\\DTOs.csproj",
+        "projectPath": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\DTOs\\DTOs.csproj",
         "packagesPath": "C:\\Users\\axelz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\DTOs\\obj\\",
+        "outputPath": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\Models.csproj"
+              "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\Models.csproj"
               }
             }
           }
@@ -47,9 +47,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -70,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\Models.csproj": {
+    "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\axelz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\axelz\\Desktop\\BomberosNosaraBackend\\Models\\obj\\",
+        "outputPath": "C:\\Users\\axelz\\Desktop\\bomberosBackend\\bomberosNosaraBackend\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -113,9 +112,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -136,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

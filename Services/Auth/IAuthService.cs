@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DTOs;
 
-namespace Services
+namespace Services.Auth
 {
     public interface IAuthService
     {

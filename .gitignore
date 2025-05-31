@@ -1,6 +1,6 @@
 # Build outputs
-bin/
-obj/
+**/bin/
+**/obj/
 *.dll
 *.pdb
 *.exe
@@ -57,7 +57,3 @@ wwwroot/
 # Optional: exclude system-wide settings
 *.lnk
 *.code-workspace
-
-# JetBrains Rider / VS for Mac
-.idea/
-*.iml

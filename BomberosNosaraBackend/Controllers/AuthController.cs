@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Services;
 using DTOs;
 using Microsoft.AspNetCore.Authorization;
+using Services.Auth;
 
 namespace BomberosNosaraBackend.Controllers
 {

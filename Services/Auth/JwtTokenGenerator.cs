@@ -1,35 +1,23 @@
 ﻿using System;
-using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.IdentityModel.Tokens;
-
+using System.Text;
 using Microsoft.Extensions.Configuration;
-using DTOs;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Services
+namespace Services.Auth
 {
-    public class AuthService : IAuthService
+    public class JwtTokenGenerator
     {
         private readonly IConfiguration _config;
 
-        public AuthService(IConfiguration config)
+        public JwtTokenGenerator(IConfiguration config)
         {
             _config = config;
         }
 
-        public Task<TokenResponse> LoginAsync(UserCredential credentials)
+        public string GenerateToken(IEnumerable<Claim> claims)
         {
-            if (credentials.Email != "admin" || credentials.Password != "1234")
-                throw new UnauthorizedAccessException("Credenciales inválidas");
-
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Email, credentials.Email),
-                new Claim(ClaimTypes.NameIdentifier, Guid.NewGuid().ToString()),
-            };
-
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]!));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
@@ -41,9 +29,7 @@ namespace Services
                 signingCredentials: creds
             );
 
-            var jwt = new JwtSecurityTokenHandler().WriteToken(token);
-
-            return Task.FromResult(new TokenResponse(jwt));
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }
